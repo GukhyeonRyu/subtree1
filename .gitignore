@@ -1,0 +1,36 @@
+# SVN
+.svn
+
+# Visual Studio
+.vs/
+**/bin/*
+obj/
+packages/
+
+# Visual Studio Code
+.vscode/
+
+# CSharp
+*.DotSettings.user
+
+# Python
+__pycache__/
+
+# Exclude Specific Files
+/SvnCommonInfo.cs
+/SvnInfo.cs
+/MD.MEDIA/SvnInfo.cs
+/MD.MEDIA/SvnCommonInfo.cs
+
+# Include Specific Files
+!/Bin/Config/
+!/Bin/Database/
+/Bin/Database/*
+!/Bin/Database/Devices
+!/Bin/Database/DeviceCodeSettings.jsonn
+!/Bin/Document/
+!/Bin/Fonts/
+!/Bin/Py/
+!/Bin/Report/
+!/Bin/x64/SQLite.Interop.dll
+!/Bin/x86/SQLite.Interop.dll
